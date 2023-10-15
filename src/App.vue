@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Sintaxe/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Sintaxe from '@/documentacao/Sintaxe.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Sintaxe
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+body{
+
+
 }
+
+#app {
+
+}
+.card{
+  border:5px solid #1f83ed!important;
+  border-radius: 12px!important;
+  h3{
+    color:#1f83ed ;
+    font-weight: 600;
+  }
+
+  h5{
+    color:#000 ;
+    font-weight: 600;
+  }
+}
+
+
 </style>
